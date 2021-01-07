@@ -1,0 +1,11 @@
+.Rhistory
+.RData
+.Rproj.user
+archive
+checks
+data
+output
+.*.sw[op]
+*~
+~*
+*.Rproj

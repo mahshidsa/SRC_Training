@@ -1,0 +1,31 @@
+project:
+  name: My project
+  code: 9999
+  author: Your Name
+
+dependencies:
+  - testdat
+  - tibble
+  - dplyr
+  - tidyr
+  - magrittr
+  - stringr
+  - glue
+
+options:
+  java.parameters: "-Xmx10G"
+  scipen: 999
+
+constants:
+  CONSTR: "driver={SQL Server Native Client 11.0};Server=dpa-sql.srcentre.local;serverspn=MSSQLsvc/dpa-sql.srcentre.local;DATABASE=META;TRUSTED_CONNECTION=YES;"
+  A_LOGICAL: true
+  A_DOUBLE: 2019
+  A_STRING: "Hello"
+  A_STRING_NUM: "2019"
+  A_VECTOR: [1, 2, 3, 4]
+  A_NAMED_LIST:
+    ITEM_1: 1
+    ITEM_2: 2
+
+paths:
+  Z_PATH: "Z:/"
